@@ -1,0 +1,112 @@
+/* LAYOUT HEADER STYLING */
+.layout-header{
+  background-color: #3C2060;
+  color: #FFFFFF;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-color: #3C2060;
+}
+
+.layout-header h2{
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+
+/* LAYOUT HEADER STYLING */
+
+.logo{
+width: 100%;
+height: 'auto';
+max-height: '64px';
+object-fit: cover; 
+border: 0px;
+}
+
+.layout-sidebar {
+  background-color: #3C2060;
+}
+
+.layout-sidebar-menu{
+  background-color: #3C2060;
+}
+/* Override the normal state of the menu item with Dark Green */
+.layout-sidebar-menu .ant-menu-item {
+  background-color: #3C2060; /* Dark Green background */
+  color: #CDAD00;  /* Golden Yellow text color */
+  font-weight: 500;
+  transition: all 0.3s ease; /* Smooth transition for hover/active effects */
+}
+
+/* Override the hover state of the menu item with a darker green */
+.layout-sidebar-menu .ant-menu-item:hover {
+  background-color: #0b2917; /* Darker shade of Dark Green */
+  color: #CDAD00 !important; /* Bright Orange text color */
+}
+
+/* Override the active (selected) state of the menu item with Golden Yellow */
+.layout-sidebar-menu .ant-menu-item-selected {
+  background-color: #D21374; /* Golden Yellow background */
+  color: #FFFFFF; /* Dark Green text color */
+  font-weight: bold; /* Bold font for active item */
+}
+
+/* Override the hover state of the active (selected) item */
+.layout-sidebar-menu .ant-menu-item-selected:hover {
+  background-color: #E84D96; /* Slightly darker Golden Yellow on hover */
+  color: #FFFFFF !important; /* Keep Dark Green text color */
+}
+
+/* Optional: Override the submenu arrow color */
+.layout-sidebar-menu .ant-menu-submenu-arrow {
+  color: #E9B84C; /* Golden Yellow arrow color */
+}
+
+.layout-sidebar-menu .ant-menu-submenu-title:hover .ant-menu-submenu-arrow {
+  color: #FF6C1C; /* Bright Orange arrow color on hover */
+}
+
+
+/* LOGOUT BUTTON */
+
+.logout-button.ant-btn-primary {
+  background-color: #D21374 !important;
+  border-color: #CDAD00 !important;
+  border: 1px solid;
+  color: #FFFFFF !important;
+  box-shadow: none !important; /* Remove default shadow */
+  font-weight: 500;
+  margin-left: 10px;
+  transition: all 0.3s ease; /* Smooth transition for hover/active effects */
+
+}
+
+.logout-button.ant-btn-primary:hover {
+  background-color: #E84D96 !important;
+  border-color: #E84D96 !important;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logout-button.ant-btn-primary:active {
+  background-color: #89144B !important;
+  border-color: #89144B !important;
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.row{
+background-image: url('https://chandragiri.luxanddecibels.in/static/media/hero.8194bc1867c56501f9c9.jpg');
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+
+}
+.abc1{
+ /* Glassmorphism effect */
+ background: rgba(255, 255, 255, 0.15); /* Semi-transparent background */
+ backdrop-filter: blur(10px); /* Apply blur */
+ -webkit-backdrop-filter: blur(10px); /* Safari support */
+ border-radius: 12px; /* Rounded corners */
+ border: 1px solid rgba(126, 56, 56, 0.2); /* Light border to enhance glass effect */
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}

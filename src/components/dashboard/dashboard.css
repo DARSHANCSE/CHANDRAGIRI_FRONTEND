@@ -1,0 +1,153 @@
+/* src/components/sections/user.css */
+
+.main-container{
+  padding: 10px;
+
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.reload-button.ant-btn-variant-outlined{
+  border: 1px solid #CDAD00 !important;
+}
+
+.add-event-button:focus{
+    background-color: #A60F5C !important; /* Darker Golden Yellow */
+    border-color: #A60F5C !important; /* Darker Golden Yellow */
+    color: #FFFFFF !important; /* Dark Green */
+}
+
+.add-event-button:active{
+    background-color: #89144B !important; /* Bright Orange */
+    border-color: #89144B !important; /* Bright Orange */
+    color: #FFFFFF !important; /* Dark Green */
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-event-button:disabled{
+    background-color: #d3d3d3;  /* Light gray background */
+    cursor: not-allowed;  /* Show a "not-allowed" cursor */
+    opacity: 0.3;  /* Make it semi-transparent */
+}
+
+.ant-btn-variant-outlined{
+  width: fit-content;
+  border: 1px solid #D21374 !important;
+}
+
+.ant-btn-variant-outlined:hover{
+  color: #000000 !important;
+  background-color: #d3d3d3 !important;
+}
+
+.ant-btn-variant-outlined:active{
+  color: #000000 !important;
+  background-color: #b5b5b5 !important;
+}
+
+.ant-btn-variant-solid{
+  width: fit-content;
+  background-color: #D21374 !important;
+  border-color: #CDAD00 !important;
+}
+
+.ant-btn-variant-solid:hover{
+  background-color: #E84D96 !important;
+  border-color: #E84D96 !important;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ant-btn-variant-solid:active{
+  background-color: #89144B !important;
+  border-color: #89144B !important;
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-event-button.ant-btn-primary {
+    margin-left: 10px;
+    background-color: #D21374 !important;
+    border-color: #CDAD00 !important;
+    border: 1px solid;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff !important;
+    box-shadow: none !important; /* Remove default shadow */
+    font-weight: 500;
+    font-size: 18px;
+    /* margin-left: 10px; */
+    width: fit-content;
+}
+
+.add-event-button.ant-btn-primary:hover{
+  background-color: #E84D96 !important;
+  border-color: #E84D96 !important;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-event-button.ant-btn-primary:active{
+  background-color: #89144B !important;
+  border-color: #89144B !important;
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.edit-button:focus{
+    background-color: #A60F5C !important; /* Darker Golden Yellow */
+    border-color: #A60F5C !important; /* Darker Golden Yellow */
+    color: #FFFFFF !important; /* Dark Green */
+}
+
+.edit-button:active{
+    background-color: #89144B !important; /* Bright Orange */
+    border-color: #89144B !important; /* Bright Orange */
+    color: #FFFFFF !important; /* Dark Green */
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.edit-button:disabled{
+    background-color: #d3d3d3;  /* Light gray background */
+    cursor: not-allowed;  /* Show a "not-allowed" cursor */
+    opacity: 0.3;  /* Make it semi-transparent */
+}
+
+.edit-button.ant-btn-primary {
+    background-color: #D21374 !important;
+    border-color: #CDAD00 !important;
+    border: 1px solid;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff !important;
+    box-shadow: none !important; /* Remove default shadow */
+    font-weight: 500;
+    font-size: 18px;
+    /* margin-left: 10px; */
+    width: fit-content;
+}
+
+.edit-button.ant-btn-primary:hover{
+    background-color: #E84D96 !important;
+    border-color: #E84D96 !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.edit-button.ant-btn-primary:active{
+    background-color: #89144B !important;
+    border-color: #89144B !important;
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+/* .event-table{
+  width: 100vw;
+ }
+  */
+
+.ant-table{
+  width:100%;
+}

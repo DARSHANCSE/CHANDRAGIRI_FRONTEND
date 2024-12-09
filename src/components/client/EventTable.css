@@ -1,0 +1,253 @@
+/* Global Reset for body */
+
+.container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .table-body{
+    width:80vw;
+    
+  }
+  
+    
+  .ant-table-cell{
+    word-wrap: break-word !important;
+    white-space: nowrap;
+  }
+  
+  /* Center the table horizontally and ensure responsiveness */
+  .table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+  
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 12px; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border to enhance glass effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  }
+  
+  .ant-spin-container {
+    justify-items: center;
+  }
+  
+  .book-button:focus{
+    background-color: #A60F5C !important; /* Darker Golden Yellow */
+    border-color: #A60F5C !important; /* Darker Golden Yellow */
+    color: #FFFFFF !important; /* Dark Green */
+  }
+  
+  .book-button:active{
+    background-color: #89144B !important; /* Bright Orange */
+    border-color: #89144B !important; /* Bright Orange */
+    color: #FFFFFF !important; /* Dark Green */
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-button:disabled{
+    background-color: #d3d3d3;  /* Light gray background */
+    cursor: not-allowed;  /* Show a "not-allowed" cursor */
+    opacity: 0.3;  /* Make it semi-transparent */
+  }
+  
+  .book-button.ant-btn-primary {
+    background-color: #D21374 !important;
+    border-color: #CDAD00 !important;
+    border: 1px solid;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff !important;
+    box-shadow: none !important; /* Remove default shadow */
+    font-weight: 500;
+    font-size: 18px;
+    /* margin-left: 10px; */
+    
+  }
+  
+  
+  .book-button.ant-btn-primary:hover{
+    background-color: #E84D96 !important;
+    border-color: #E84D96 !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    /* width:90% */
+  }
+  
+  .book-button.ant-btn-primary:active{
+    background-color: #89144B !important;
+    border-color: #89144B !important;
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-table{
+    word-wrap: break-word !important;
+  }
+  
+  .cards-grid{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  
+  .ant-card-bordered {
+    border: 2px solid #24ed05;}
+  .welcome{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .ant-card-cover   .custom-cover{
+    padding-top:  15px; 
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  .image{
+    display: flex;
+    border-radius: 15px;
+    width: 90%;
+    height: 100%;
+    /* align-items: center;
+    justify-content: center;
+    align-content: center; */
+  }
+  .custom-title{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Mobile Portrait - Small screens (320px) */
+  @media only screen and (min-width: 319px) and (max-width: 320px) {
+  
+  
+    .event-table{
+        word-wrap: break-word !important;
+        width: 90vw;
+    }
+  
+    .table-container {
+        height: auto;
+        width: 95vw !important;
+        border-radius: 8px;
+    }
+  
+    .book-button.ant-btn-primary{
+        font-size: 14px;
+        max-width: 50px;
+    }
+  }
+  
+  @media only screen and (min-width:321px) and (max-width: 375px) {
+  
+    .event-table{
+        word-wrap: break-word !important;
+        width: 90vw;
+    }
+  
+    .table-container {
+        height: auto;
+        width: 95vw !important;
+        border-radius: 8px;
+    }
+  
+    .book-button.ant-btn-primary{
+        font-size: 14px;
+        max-width: 50px;
+    }
+  }
+  
+  @media only screen and (min-width:376px) and (max-width: 425px) {
+  
+    .event-table{
+        word-wrap: break-word !important;
+        width: 90vw;
+    }
+  
+    .table-container {
+        height: auto;
+        width: 95vw !important;
+        border-radius: 8px;
+    }
+  
+    .book-button.ant-btn-primary{
+        font-size: 14px;
+        max-width: 50px;
+    }
+  }
+  
+  @media only screen and (min-width:426px) and (max-width: 768px) {
+  
+    .event-table{
+        word-wrap: break-word !important;
+        width: 90vw;
+    }
+  
+    .table-container {
+        height: auto;
+        width: 95vw !important;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+  }
+  
+  @media only screen and (min-width:769px) and (max-width: 1024px) {
+  
+    .event-table{
+        word-wrap: break-word !important;
+        width: 75vw;
+    }
+  
+    .table-container {
+        height: auto;
+        width: 80vw !important;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 1440px) {
+  
+    .event-table{
+        word-wrap: break-word !important;
+        width: 75vw;
+    }
+  
+    .table-container {
+        height: auto;
+        width: 80vw !important;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 12px;
+    }
+  }
+  /* 
+  @media only screen and (min-width: 1441px) and (max-width: 2560px) {
+  
+    .event-table{
+        word-wrap: break-word !important;
+        width: 75vw;
+    }
+  
+    .table-container {
+        height: auto;
+        width: 80vw !important;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 12px;
+    }
+  } */

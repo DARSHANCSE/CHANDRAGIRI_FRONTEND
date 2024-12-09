@@ -1,0 +1,95 @@
+/* src/AdminLogin.css */
+
+.login-container {
+    display: flex;
+    height: 100vh; /* Full height */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-left {
+    flex: 1; /* Equal space for left side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .logo {
+    border-radius: 15px;
+    max-width: 80%; /* Adjust logo size */
+    height: auto;
+  }
+  
+  .login-right {
+    flex: 1; /* Equal space for right side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100%;
+
+  }
+
+.login-box {
+
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    /* Glass morphism Effect Start */
+    background: rgba(205, 173, 0, 0.1); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Glass morphism  */
+}
+
+.login-box h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.login-button:focus {
+    background-color: #A60F5C !important; /* Darker Golden Yellow */
+    border-color: #A60F5C !important; /* Darker Golden Yellow */
+    color: #FFFFFF !important; /* Dark Green */
+  }
+  
+  .login-button:active {
+    background-color: #89144B !important; /* Bright Orange */
+    border-color: #89144B !important; /* Bright Orange */
+    color: #FFFFFF !important; /* Dark Green */
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-button.ant-btn-primary {
+    background-color: #D21374 !important;
+    border-color: #CDAD00 !important;
+    border: 1px solid;
+    transition: all 0.3s ease-in-out;
+    color: #ffffff !important;
+    box-shadow: none !important; /* Remove default shadow */
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+    width: 180px;
+    height: auto;
+  }
+  
+  .login-button.ant-btn-primary:hover {
+    background-color: #E84D96 !important;
+    border-color: #E84D96 !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-button.ant-btn-primary:active {
+    background-color: #89144B !important;
+    border-color: #89144B !important;
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
